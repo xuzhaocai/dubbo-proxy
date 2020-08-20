@@ -1,5 +1,7 @@
 package org.apache.dubbo.proxy.utils;
 
+
+// 返回代码
 public enum ResultCode {
 
     OK(0),

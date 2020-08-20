@@ -3,11 +3,11 @@ package org.apache.dubbo.proxy.dao;
 
 public class ServiceDefinition {
 
-    private String application;
-    private String serviceID;
-    private String methodName;
-    private Object[] paramValues;
-    private String[] paramTypes;
+    private String application;// app
+    private String serviceID; // 服务id
+    private String methodName; // 方法名
+    private Object[] paramValues; // 参数值
+    private String[] paramTypes; // 参数类型
 
     public String getApplication() {
         return application;
